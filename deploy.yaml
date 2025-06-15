@@ -1,0 +1,13 @@
+---
+- name: Local configuration
+  hosts: localhost
+  connection: local
+  tasks:
+    - name: Create a Sample File Inside Ansible Pod
+      file:
+        path: /tmp/hello-from-ansible.txt
+        state: touch
+
+    - name: Print a Message
+      debug:
+        msg: "this playbook is running inside the pod!"
