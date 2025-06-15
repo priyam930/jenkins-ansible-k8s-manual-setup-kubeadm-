@@ -7,7 +7,7 @@ The Jenkins server triggers Ansible playbooks inside the Kubernetes Ansible pod 
 ---
 
 ## 📖 Medium Blog  
-Detailed step-by-step guide is available here 👉 [Read the Full Blog on Medium](https://medium.com/@yourmediumhandle/deploy-dockerized-jenkins-and-ansible-on-kubernetes-cluster-manual-kubeadm-setup-xxxxxxxxxxxx)
+Detailed step-by-step guide is available here 👉 [Read the Full Blog on Medium](https://medium.com/@priyamsanodiya340/deploy-dockerized-jenkins-and-ansible-on-kubernetes-cluster-manual-kubeadm-setup-fec7187e4a66)
 
 ---
 
