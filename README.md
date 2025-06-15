@@ -34,24 +34,21 @@ Detailed step-by-step guide is available here 👉 [Read the Full Blog on Medium
 ├── ansible/
 │   └── deploy.yml (Ansible playbook)
 └── README.md
+
 🚀 How to Run the Project
 1. Setup Kubernetes Cluster using kubeadm
 Follow this 👉 https://medium.com/@priyamsanodiya340/setting-up-a-kubernetes-multi-node-cluster-on-aws-a-step-by-step-guide-dd6cc010b625
 
 2. Deploy Jenkins
-bash
-Copy
-Edit
 kubectl apply -f jenkins-pv.yaml
 kubectl apply -f jenkins-deployment.yaml
 kubectl apply -f jenkins-service.yaml
+
 3. Deploy Ansible
-bash
-Copy
-Edit
 docker build -t <your-dockerhub-username>/ansible:latest .
 docker push <your-dockerhub-username>/ansible:latest
 kubectl apply -f ansible-deployment.yaml
+
 4. Configure Jenkins Pipeline
 Use the provided Jenkinsfile as the pipeline script.
 
