@@ -74,8 +74,7 @@ All deployment files, Dockerfiles, Jenkins pipelines, and Ansible playbooks are 
 Kubernetes kubeadm guide by priyam sanodiya
 
 📬 Contact
-If you have any questions or suggestions, feel free to connect:
-LinkedIn 
+If you have any questions or suggestions, feel free to connect:LinkedIn(www.linkedin.com/in/priyam-sanodiya) 
 
 📢 Follow Me on Medium
 👉 @priyamsanodiya340
