@@ -1,6 +1,7 @@
 # jenkins-ansible-k8s-manual-setup-kubeadm-
 # 🚀 Deploy Dockerized Jenkins and Ansible on Kubernetes Cluster (Manual kubeadm Setup)
 
+## LW_PROJECT_6
 This project demonstrates how to **manually set up a Kubernetes cluster using kubeadm** and deploy **Dockerized Jenkins and Ansible pods inside the cluster.**  
 The Jenkins server triggers Ansible playbooks inside the Kubernetes Ansible pod without the need for external inventory or SSH.
 
